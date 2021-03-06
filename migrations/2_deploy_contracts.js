@@ -12,8 +12,8 @@ module.exports = async function(deployer) {
     await deployer.deploy(Lottery);
 
     proxyAdmin= '0x0F9399FC81DaC77908A2Dde54Bb87Ee2D17a3373';
-    lotteryOwner= '0xB9FA21a62FC96Cb2aC635a051061E2E50d964051'
-    lotteryAdmin= '0xB9FA21a62FC96Cb2aC635a051061E2E50d964051';
+    lotteryOwner= '0x9e2263C8B25d2D4763D956400CdaCfB0744209aD';
+    lotteryAdmin= '0x9e2263C8B25d2D4763D956400CdaCfB0744209aD';
 
     const abiEncodeData = web3.eth.abi.encodeFunctionCall({
         "inputs": [
